@@ -187,7 +187,7 @@ $(document).ready(function() {
   Cufon.replace('h2, h3');
 
   // Init PrettyPhoto
-  $("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'});
+  // $("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'});
 
   // Init Tipsy Tooltips on Elements with class .tipsy - They need to have a title tag
   $('.tooltip').tipsy({gravity: 's', offset: 200 });
